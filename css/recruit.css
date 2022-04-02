@@ -38,12 +38,6 @@ body {
   position: relative;
 }
 
-.common__sub-ttl {
-  font-size: 16px;
-  font-family: "Indie Flower", cursive;
-  color: #b31566;
-}
-
 /*--------------------- header--------------------- */
 
 .header {
@@ -92,8 +86,35 @@ body {
   color: #fff;
 }
 
-/*---------------------about--------------------- */
+/*---------------------recruit--------------------- */
+.recruit_one {
+  width: 100%;
+}
 
+.recruit_one th,
+.recruit_one td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.recruit_one th {
+  font-weight: bold;
+  background-color: #dedede;
+}
+
+@media screen and (max-width: 767px) {
+
+  .recruit_one,
+  .recruit_one tr,
+  .recruit_one td,
+  .recruit_one th {
+    display: block;
+  }
+
+  .recruit_one th {
+    width: auto;
+  }
+}
 
 
 /*---------------------contact--------------------- */
