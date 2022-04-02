@@ -110,6 +110,9 @@ body {
 }
 
 /*---------------------service--------------------- */
+#service {
+}
+
 .service__container {
   display: flex;
   flex-wrap: wrap;
