@@ -8,10 +8,6 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
-
 body {
   color: #000000;
   line-height: 1.7;
@@ -37,13 +33,6 @@ body {
   font-weight: bold;
   position: relative;
 }
-
-.common__sub-ttl {
-  font-size: 16px;
-  font-family: "Indie Flower", cursive;
-  color: #b31566;
-}
-
 /*--------------------- header--------------------- */
 
 .header {
@@ -92,9 +81,32 @@ body {
   color: #fff;
 }
 
-/*---------------------about--------------------- */
+/*---------------------table--------------------- */
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
 
+.table tr {
+  border-bottom: 1px solid #ACACAC;
+}
 
+.table tr th,
+.table tr td {
+  padding: 20px 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+.table tr th {
+  width: 15%;
+  font-weight: bold;
+}
+
+.table tr td {
+  width: 75%;
+}
 
 /*---------------------contact--------------------- */
 
