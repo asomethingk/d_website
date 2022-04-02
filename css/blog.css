@@ -1,173 +1,188 @@
-/*
-html5doctor.com Reset Stylesheet
-v1.6.1
-Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com
-Twitter: @rich_clark
-*/
-
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-
-body {
-  line-height: 1;
-}
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-nav ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+.img {
+  width: 100%;
+  height: auto;
 }
 
 a {
-  margin: 0;
-  padding: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-}
-
-/* change colours to suit your needs */
-ins {
-  background-color: #ff9;
-  color: #000;
+  color: #000000;
   text-decoration: none;
 }
 
-/* change colours to suit your needs */
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
+li {
+  list-style: none;
+}
+
+body {
+  color: #000000;
+  line-height: 1.7;
+}
+
+.flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.small-container {
+  max-width: 760px;
+  margin: 80px auto 0;
+}
+
+.common__ttl {
+  font-size: 24px;
   font-weight: bold;
+  position: relative;
 }
 
-del {
-  text-decoration: line-through;
+/*--------------------- header--------------------- */
+
+.header {
+  height: 70px;
+  line-height: 70px;
 }
 
-abbr[title],
-dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
+.header__logo {
+  width: 150px;
+  margin-left: 40px;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.header__nav {
+  margin-right: 40px;
 }
 
-/* change border colour to suit your needs */
-hr {
+.header__nav-list li {
+  margin-right: 25px;
+}
+
+.header__nav-list li:last-child {
+  margin-right: 0;
+}
+
+.header__nav-list-link {
+  height: 70px;
+  display: inline-block;
+}
+
+.header__img {
+  background-image: url(../CS/img/mv.png);
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__img-text {
+  color: #fff;
+}
+
+
+/*---------------------blog--------------------- */
+  #blog {
+  background: #fff;
+  padding: 40px 0;
+}
+
+.blog-wrap {
+  margin-top: 30px;
+}
+
+.blog-wrap__item {
+  width: 30%;
+  position: relative;
   display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #cccccc;
-  margin: 1em 0;
-  padding: 0;
 }
 
-input,
-select {
-  vertical-align: middle;
+.blog-wrap__item-content {
+  background: #fff;
+  padding: 20px;
+  margin-top: -7px;
+}
+
+.blog-wrap__item-eyecatch {}
+
+.blog-wrap__item-content-tag {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.blog__link {
+  display: block;
+  margin: 30px auto 0;
+  width: 200px;
+  text-align: center;
+  padding: 15px 0;
+  background: #fff;
+  border: 2px solid #b31566;
+  border-radius: 30px;
+  color: #b31566;
+  transition: 0.4s;
+}
+
+.blog__link:hover {
+  background-color: #b31566;
+  color: #fff;
+  transition: 0.4s;
+}
+
+
+/*---------------------contact--------------------- */
+
+#contact {
+  margin-top: 80px;
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.contact__ttl {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.contact__ttl-first {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+/*---------------------footer--------------------- */
+.footer {
+  height: 60px;
+  line-height: 60px;
+}
+
+.footer__logo {
+  width: 150px;
+  margin-left: 40px;
+}
+
+.footer__nav {
+  margin-right: 40px;
+}
+
+.footer__nav-list li {
+  margin: 0;
+  padding: 0 20px;
+  border-left: 1px #808080 solid;
+}
+
+.footer__nav-list li:first-child {
+  padding-left: 0;
+  border: none;
+}
+
+.footer__nav-list li:last-child {
+  margin-right: 0;
+}
+
+.footer__nav-list-link {
+  height: 70px;
+  display: inline-block;
 }
