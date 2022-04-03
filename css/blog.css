@@ -80,57 +80,36 @@ body {
 
 .header__img-text {
   color: #fff;
+  font-size: 30px;
 }
 
 
 /*---------------------blog--------------------- */
   #blog {
   background: #fff;
-  padding: 40px 0;
+  padding: 20px;
 }
 
 .blog-wrap {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .blog-wrap__item {
-  width: 30%;
+  width: 60%;
+  padding: 20px;
   position: relative;
   display: block;
 }
 
 .blog-wrap__item-content {
   background: #fff;
-  padding: 20px;
+  padding: 10px;
   margin-top: -7px;
 }
 
-.blog-wrap__item-eyecatch {}
-
 .blog-wrap__item-content-tag {
   font-size: 14px;
-  margin-top: 30px;
 }
-
-.blog__link {
-  display: block;
-  margin: 30px auto 0;
-  width: 200px;
-  text-align: center;
-  padding: 15px 0;
-  background: #fff;
-  border: 2px solid #b31566;
-  border-radius: 30px;
-  color: #b31566;
-  transition: 0.4s;
-}
-
-.blog__link:hover {
-  background-color: #b31566;
-  color: #fff;
-  transition: 0.4s;
-}
-
 
 /*---------------------contact--------------------- */
 
