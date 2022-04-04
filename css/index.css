@@ -35,6 +35,7 @@ body {
 .common__ttl {
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
   position: relative;
 }
 
@@ -113,46 +114,57 @@ body {
 .service__container {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 80px;
 }
 
-.card__img {
+.card {
+  width: 45%;
+  justify-content:center;
+}
+
+.card-text {
+  font-weight: bold;
+}
+
+.card__img1 {
   flex-wrap: wrap;
   padding: 10px 10px;
   margin: 10px;
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 600px;
   background-image: url(../CS/img/service1.png);
 }
 
 .card__img2 {
   padding: 10px;
   margin: 10px;
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 600px;
   background-image: url(../CS/img/service2.png);
 }
 
 .card__img3 {
   padding: 10px;
   margin: 10px;
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 600px;
   background-image: url(../CS/img/service3.png);
 }
 
 .card__img4 {
   padding: 10px;
   margin: 10px;
-  height: 100px;
-  width: 100px;
+  height: 250px;
+  width: 600px;
   background-image: url(../CS/img/service4.png);
 }
 
-.blog__link {
+.service__link {
   width: 300px;
   display: block;
-  padding: 10px 0 10px;
+  padding: 10px 0;
   margin: 0 auto;
+  margin-top: 30px;
   background: #ff0000;
   text-align: center;
   color: #fff;
@@ -160,75 +172,102 @@ body {
   transition: 0.4s;
   position: relative;
 }
+
+/*---------------------news--------------------- */
+
+.multicheck {
+  list-style: none;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding: 70px;
+  background-color: #000000;
+}
+
+.common__ttl {
+  color: #fff;
+}
+
+.multicheck .multicheck-item {
+  margin: 5px 0;
+  padding: 0;
+}
+
+.multicheck input[type="checkbox"] {
+  display: none;
+}
+
+.multicheck input[type="checkbox"].multicheck-input:checked+label {
+  background: #fff;
+  color: #333333;
+  border: 2px solid #000000;
+}
+
+.multicheck .multicheck-label {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 40px;
+  text-align: left;
+  line-height: 45px;
+  padding: 0 5px;
+  cursor: pointer;
+  color: #333333;
+  border: 2px solid #000000;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.multicheck .multicheck-label:hover {
+  background-color: #fff;
+  border: 2px solid #000000;
+}
 /*---------------------blog--------------------- */
 #blog {
+  background: #fff;
+  padding: 20px;
   margin-top: 80px;
-  background: #f5f5f5;
-  padding: 40px 0;
 }
+
 .blog-wrap {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .blog-wrap__item {
-  width: 30%;
+  width: 60%;
+  padding: 20px;
   position: relative;
   display: block;
 }
 
 .blog-wrap__item-content {
   background: #fff;
-  padding: 20px;
+  padding: 10px;
   margin-top: -7px;
-}
-
-.blog-wrap__item-eyecatch {
 }
 
 .blog-wrap__item-content-tag {
   font-size: 14px;
-  margin-top: 30px;
 }
 
 .blog__link {
+  width: 300px;
   display: block;
-  margin: 30px auto 0;
-  width: 200px;
+  padding: 10px 0;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: #ff0000;
   text-align: center;
-  padding: 15px 0;
-  background: #fff;
-  border: 2px solid #b31566;
-  border-radius: 30px;
-  color: #b31566;
+  color: #fff;
+  font-size: 18px;
   transition: 0.4s;
+  position: relative;
 }
 
 .blog__link:hover {
   background-color: #b31566;
   color: #fff;
   transition: 0.4s;
-}
-
-/*---------------------company--------------------- */
-
-.company-table {
-  width: 100%;
-  text-align: left;
-  margin-top: 30px;
-}
-
-.company-table__th {
-  padding: 15px 0 15px 15px;
-  width: 30%;
-  text-align: left;
-  background: #f5f5f5;
-  border: 1px solid #ccc;
-}
-
-.company-table__td {
-  padding: 15px 0 15px 15px;
-  width: 70%;
-  border: 1px solid #ccc;
 }
 
 /*---------------------recruit--------------------- */
@@ -279,7 +318,7 @@ body {
 
 .contact__ttl {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-bottom: 20px;
   font-size: 20px;
 }
@@ -335,6 +374,7 @@ body {
 .footer__nav-list li {
   margin: 0;
   padding: 0 20px;
+  height: 30px;
   border-left: 1px #808080 solid;
 }
 
