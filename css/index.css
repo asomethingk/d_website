@@ -336,6 +336,11 @@ body {
   margin-top: 80px;
 }
 
+.flex__item_recruit {
+  display: flex;
+  justify-content: space-between;
+}
+
 .recruit__item {
   height: 250px;
   position: relative;
@@ -459,12 +464,12 @@ body {
 /*------------------------------------------ */
 @media screen and (max-width: 768px) {
   .flex__item
-  .service__container
-  .blog-wrap {
+  .service__container 
+  .blog-wrap__item {
     display: block;
   }
-
-    .header__nav {
+    
+  .header__nav {
       display: none;
     }
     
@@ -531,7 +536,6 @@ body {
     }
 
       .footer {
-        flex-direction: column;
         padding: 4% 2%;
       }
     
@@ -539,12 +543,13 @@ body {
         width: 100%;
         margin: 0;
         padding: 0;
-        flex-direction: column;
+        display: block;
       }
     
     .footer__nav-list {
         margin: 0;
         text-align: center;
+        display: block;
       }
     
     .footer__logo {
