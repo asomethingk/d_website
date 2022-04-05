@@ -85,16 +85,39 @@ body {
 
 /*---------------------news--------------------- */
 
-.multicheck {
-  list-style: none;
-  width: 1000px;
-  margin: 0 auto;
-  padding: 30px;
+.u-mb {
+  margin-top: 80px;
 }
 
-.multicheck .multicheck-item {
+.multicheck {
+  list-style: none;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 70px;
+
+}
+
+.multi {
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.common__ttl_n {
+  color: #fff;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.multicheck  {
   margin: 5px 0;
-  padding: 0;
+  padding: 10px;
+  position: relative;
+}
+
+.multicheck-item {
+  margin: 5px 0;
+  padding: 10px;
 }
 
 .multicheck input[type="checkbox"] {
@@ -104,27 +127,27 @@ body {
 .multicheck input[type="checkbox"].multicheck-input:checked+label {
   background: #fff;
   color: #333333;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
 }
 
 .multicheck .multicheck-label {
   display: block;
-  width: 100%;
-  height: 50px;
-  padding: 40px;
-  text-align:left;
-  line-height: 45px;
-  padding: 0 5px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 60px;
+  text-align: left;
+  padding: 10px 5px;
   cursor: pointer;
   color: #333333;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
   background: #fff;
   transition: 0.5s;
 }
 
 .multicheck .multicheck-label:hover {
   background-color: #fff;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
 }
 
 /*---------------------btn--------------------- */
@@ -161,6 +184,8 @@ body {
 .footer {
   height: 60px;
   line-height: 60px;
+  color: #fff;
+  background-color: #000000;
 }
 
 .footer__logo {
@@ -170,10 +195,11 @@ body {
 
 .footer__nav {
   margin-right: 40px;
+
 }
 
 .footer__nav-list li {
-  margin: 0 auto;
+  margin: 0;
   padding: 0 20px;
   height: 30px;
   border-left: 1px #808080 solid;
@@ -189,6 +215,7 @@ body {
 }
 
 .footer__nav-list-link {
-  height: 70px;
+  height: 30px;
   display: inline-block;
+  color: #fff;
 }

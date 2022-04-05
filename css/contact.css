@@ -116,7 +116,6 @@ body {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  max-width: 400px;
 }
 
 .form-textarea {
@@ -160,6 +159,8 @@ body {
 .footer {
   height: 60px;
   line-height: 60px;
+  color: #fff;
+  background-color: #000000;
 }
 
 .footer__logo {
@@ -169,6 +170,7 @@ body {
 
 .footer__nav {
   margin-right: 40px;
+
 }
 
 .footer__nav-list li {
@@ -188,6 +190,7 @@ body {
 }
 
 .footer__nav-list-link {
-  height: 70px;
+  height: 30px;
   display: inline-block;
+  color: #fff;
 }

@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -135,6 +135,8 @@ body {
 .footer {
   height: 60px;
   line-height: 60px;
+  color: #fff;
+  background-color: #000000;
 }
 
 .footer__logo {
@@ -144,6 +146,7 @@ body {
 
 .footer__nav {
   margin-right: 40px;
+
 }
 
 .footer__nav-list li {
@@ -163,6 +166,7 @@ body {
 }
 
 .footer__nav-list-link {
-  height: 70px;
+  height: 30px;
   display: inline-block;
+  color: #fff;
 }

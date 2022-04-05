@@ -134,6 +134,8 @@
 .footer {
   height: 60px;
   line-height: 60px;
+  color: #fff;
+  background-color: #000000;
 }
 
 .footer__logo {
@@ -143,6 +145,7 @@
 
 .footer__nav {
   margin-right: 40px;
+
 }
 
 .footer__nav-list li {
@@ -162,6 +165,7 @@
 }
 
 .footer__nav-list-link {
-  height: 70px;
+  height: 30px;
   display: inline-block;
+  color: #fff;
 }
