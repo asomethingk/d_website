@@ -50,6 +50,10 @@
   margin-top: 60px;
 }
 
+.table-box img {
+  width: 80%;
+}
+
 .table tr {
   border-bottom: 1px solid #ACACAC;
   padding-bottom: 20px;
@@ -168,4 +172,29 @@
   height: 30px;
   display: inline-block;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding: 4% 2%;
+    height: 300px;
+  }
+
+  .footer__nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .footer__nav-list {
+    margin: 0;
+    text-align: center;
+    display: block;
+  }
+
+  .footer__logo {
+    display: block;
+    padding: 8px;
+  }
 }

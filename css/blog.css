@@ -170,3 +170,33 @@ body {
   display: inline-block;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .flex__item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer {
+    padding: 4% 2%;
+    height: 300px;
+  }
+
+  .footer__nav {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .footer__nav-list {
+    margin: 0;
+    text-align: center;
+    display: block;
+  }
+
+  .footer__logo {
+    display: block;
+    padding: 8px;
+  }
+}

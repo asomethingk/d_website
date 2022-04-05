@@ -484,6 +484,10 @@ body {
     width: 90%;
   }
 
+  .blog-wrap__item {
+    margin: 0 auto;
+  }
+
   .header__nav {
       display: none;
     }
