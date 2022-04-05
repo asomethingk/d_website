@@ -84,6 +84,14 @@ body {
   transition: 0.4s;
 }
 
+.menu {
+  display: none;
+}
+
+.drawer-nav {
+  display: none;
+}
+
 .header__img {
   background-image: url(../CS/img/mv.png);
   height: 80vh;
@@ -94,6 +102,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 
 /*---------------------about--------------------- */
 
@@ -454,3 +463,92 @@ body {
   .blog-wrap {
     display: block;
   }
+
+    .header__nav {
+      display: none;
+    }
+    
+    .menu {
+      display: inline-block;
+      width: 36px;
+      height: 32px;
+      cursor: pointer;
+      position: relative;
+      z-index: 10;
+    }
+    
+    .menu-line-one,
+    .menu-line-two,
+    .menu-line-three {
+      display: inline-block;
+      width: 100%;
+      height: 4px;
+      background-color: #000;
+      position: absolute;
+      transition: 0.5s;
+    }
+    
+    .menu-line-one {
+      top: 0;
+    }
+    
+    .menu-line-two {
+      top: 14px;
+    }
+    
+    .menu-line-three {
+      bottom: 0;
+    }
+    
+    .menu.open span:nth-of-type(1) {
+      top: 14px;
+      transform: rotate(45deg);
+    }
+    
+    .menu.open span:nth-of-type(2) {
+      opacity: 0;
+    }
+    
+    .menu.open span:nth-of-type(3) {
+      top: 14px;
+      transform: rotate(-45deg);
+    }
+    
+    .drawer-nav {
+      display: block;
+      position: absolute;
+      height: 100vh;
+      width: 100%;
+      top: 0;
+      left: -100%;
+      background: #fff;
+      transition: .7s;
+    }
+    
+    .drawer-nav-list {
+      padding-top: 80px;
+      text-align: center;
+    }
+
+      .footer {
+        flex-direction: column;
+        padding: 4% 2%;
+      }
+    
+    .footer__nav {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+      }
+    
+    .footer__nav-list {
+        margin: 0;
+        text-align: center;
+      }
+    
+    .footer__logo {
+        display: block;
+        padding: 8px;
+      }
+    }
