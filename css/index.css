@@ -41,6 +41,11 @@ body {
   line-height: 70px;
 }
 
+.header_flex__item {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header_img_block {
   text-align: center;
 }
@@ -463,12 +468,22 @@ body {
 
 /*------------------------------------------ */
 @media screen and (max-width: 768px) {
-  .flex__item
-  .service__container 
-  .blog-wrap__item {
+  .flex__item  {
     display: block;
   }
-    
+
+  .header_flex__item {
+    display: block;
+  }
+
+  .service__container {
+    display: block;
+  }    
+
+  .card {
+    width: 90%;
+  }
+
   .header__nav {
       display: none;
     }
@@ -537,6 +552,7 @@ body {
 
       .footer {
         padding: 4% 2%;
+        height: 300px;
       }
     
     .footer__nav {
