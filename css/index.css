@@ -504,7 +504,8 @@ body {
       cursor: pointer;
       position: relative;
       z-index: 10;
-      left: 0;
+      left: auto;
+      right: 0;
       position: fixed;
     }
     
