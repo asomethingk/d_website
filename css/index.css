@@ -472,6 +472,11 @@ body {
     display: block;
   }
 
+  .header {
+    display: flex;
+  }
+
+
   .header_flex__item {
     display: block;
   }
@@ -499,6 +504,7 @@ body {
       cursor: pointer;
       position: relative;
       z-index: 10;
+      left: 0;
     }
     
     .menu-line-one,
@@ -557,13 +563,19 @@ body {
       .footer {
         padding: 4% 2%;
         height: 300px;
+        display: flex;
       }
     
     .footer__nav {
-        width: 100%;
+        width: 80%;
         margin: 0;
         padding: 0;
         display: block;
+      }
+
+      .footer__logo {
+        padding: 5px;
+        font-size: 10px;
       }
     
     .footer__nav-list {
@@ -572,8 +584,4 @@ body {
         display: block;
       }
     
-    .footer__logo {
-        display: block;
-        padding: 8px;
-      }
     }

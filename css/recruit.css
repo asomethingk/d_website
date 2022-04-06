@@ -130,21 +130,6 @@ body {
   background-color: #dedede;
 }
 
-@media screen and (max-width: 767px) {
-
-  .recruit_one,
-  .recruit_one tr,
-  .recruit_one td,
-  .recruit_one th {
-    display: block;
-  }
-
-  .recruit_one th {
-    width: auto;
-  }
-}
-
-
 /*---------------------contact--------------------- */
 
 #contact {
@@ -235,9 +220,14 @@ body {
 
 @media screen and (max-width: 768px) {
   .table {
-    width: 50%;
+    width: 100%;
     margin: auto;
   }
+
+  .tbody {
+    display: block
+  }
+
   .recruit_one {
     width: 300px;
     margin: 0;

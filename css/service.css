@@ -175,6 +175,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .table-box img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .box-span {
+    display: block;
+  }
+
   .footer {
     padding: 4% 2%;
     height: 300px;
